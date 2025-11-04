@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+data/biznet_tweets_raw.csv
+data/biznet_tweets_clean.csv
+data/biznet_tweets_sentiment.csv
+
+# Include public (anonymized) versions
+!data/biznet_tweets_clean_public.csv
+!data/biznet_tweets_sentiment_public.csv
+
+# Logs and databases
+*.log
+*.sqlite

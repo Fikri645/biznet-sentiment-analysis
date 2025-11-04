@@ -1,0 +1,16 @@
+pandas>=1.5
+numpy
+tqdm
+regex
+sastrawi
+transformers>=4.30
+torch>=1.12
+sentencepiece
+scikit-learn
+matplotlib
+seaborn
+plotly
+wordcloud
+streamlit
+langdetect
+python-dotenv
