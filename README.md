@@ -1,5 +1,75 @@
 # Biznet Twitter Sentiment Analysis
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://biznet-sentiment-analysis.streamlit.app)
+
+## 📊 Live Demo
+Try the live application here: [Biznet Sentiment Analysis App](https://biznet-sentiment-analysis.streamlit.app)
+
+![App Screenshot](data/figures/sentiment_distribution.png)
+
+## 🎯 Project Overview
+This project analyzes customer sentiment from Twitter discussions about Biznet Internet Service Provider using Natural Language Processing and Machine Learning. The analysis is performed using IndoRoBERTa model fine-tuned for Indonesian sentiment analysis.
+
+## ✨ Features
+- Real-time sentiment analysis visualization
+- Interactive dashboard with filters
+- Keyword extraction and analysis
+- Trend analysis over time
+- Word clouds for positive and negative sentiments
+
+## 🛠️ Tech Stack
+- Python
+- Streamlit
+- HuggingFace Transformers (IndoRoBERTa)
+- Pandas & NumPy
+- Plotly & Matplotlib
+- Scikit-learn
+
+## 📦 Installation & Usage
+
+1. Clone the repository
+```bash
+git clone https://github.com/Fikri645/biznet-sentiment-analysis.git
+cd biznet-sentiment-analysis
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Streamlit app
+```bash
+streamlit run app/streamlit_app.py
+```
+
+## 📁 Project Structure
+```
+biznet-sentiment-analysis/
+├── app/
+│   └── streamlit_app.py      # Main Streamlit application
+├── data/
+│   ├── figures/              # Generated visualizations
+│   ├── slang.csv            # Indonesian slang dictionary
+│   └── *_public.csv         # Public dataset samples
+├── src/
+│   ├── __init__.py
+│   ├── analysis.py          # Analysis utilities
+│   ├── preprocess.py        # Data preprocessing
+│   ├── sentiment.py         # Sentiment analysis
+│   └── utils.py            # Helper functions
+└── requirements.txt         # Project dependencies
+```
+
+## 📈 Sample Results
+![Trend Analysis](data/figures/sentiment_trend.png)
+
+## 📝 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+- [Fikri Wahidin](https://github.com/Fikri645)
+
 This project analyzes sentiment from tweets related to Biznet (Indonesian Internet Service Provider) using Natural Language Processing techniques. The analysis covers tweets collected from June 19, 2025, to October 31, 2025.
 
 ## Data Collection
